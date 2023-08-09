@@ -1,2 +1,9 @@
-# SmartGuard
-The Smart Security Camera System is a Python project that leverages facial recognition, real-time alerts, and video streaming to enhance home security. It detects unrecognized individuals, sends SMS alerts, and provides remote access to live video feeds. Experience advanced surveillance with easy setup and intuitive controls.
+- 👋 Hi, I’m @Kishanjaisoorya
+- 👀 I’m interested in python
+- 🌱 I’m currently learning cyber security
+- 📫 How to reach me through kishanjaisoorya16@gmail.com
+
+<!---
+Kishanjaisoorya/Kishanjaisoorya is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
