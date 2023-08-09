@@ -6,14 +6,14 @@ from geopy.geocoders import Nominatim
 import numpy as np
 import sounddevice as sd
 
-account_sid = 'ACff5bbc8bfb2ccd2445f6edb00ad689ee'
-auth_token = 'f6b716e2ef07767ed0273de96abc0179'
-twilio_phone_number = '+13613091250'
-owner_phone_number = '+919788335200'
+account_sid = 'Your id'
+auth_token = 'token'
+twilio_phone_number = 'twilio num'
+owner_phone_number = 'owner number'
 police_phone_number = '+1234567890' 
 
 owner_images = [
-    face_recognition.load_image_file('C:/Users/91979/Documents/SUBJECTS/HACKCET/aswanth.jpg')
+    face_recognition.load_image_file('C:/Users/91979/Documents/sample.jpg')
 ]
 owner_encodings = [face_recognition.face_encodings(image)[0] for image in owner_images]
 
@@ -36,7 +36,7 @@ location = geolocator.geocode('')
 if location is not None:
     camera_location = location.address
 else:
-    camera_location = 'puduvoyal,Thrivallur,Tamilnadu,India'
+    camera_location = 'India'
 
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 output_video = None
